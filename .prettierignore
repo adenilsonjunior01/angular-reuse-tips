@@ -1,0 +1,8 @@
+package.json
+package-lock.json
+dist
+karma.conf.json
+commitlint.config.js
+
+# Ignore all HTML files:
+*.html
