@@ -15,7 +15,7 @@ export class CategoriesComponent extends FormBaseResource<MyFormInterface> imple
     super(injector);
   }
 
-  ngOnInit() {
+  public ngOnInit(): void {
     this.createForm();
   }
 
