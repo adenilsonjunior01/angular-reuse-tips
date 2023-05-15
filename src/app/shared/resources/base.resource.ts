@@ -24,4 +24,7 @@ export abstract class BaseResource {
     }
     return this._activatedRoute;
   }
+
+  public filter(list: any): any {}
+  public orderBy(list: any, param: string): any {}
 }
